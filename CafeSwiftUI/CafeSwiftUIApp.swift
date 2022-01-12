@@ -11,7 +11,8 @@ import SwiftUI
 struct CafeSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainTabView()
+                .accentColor(.green)
         }
     }
 }
