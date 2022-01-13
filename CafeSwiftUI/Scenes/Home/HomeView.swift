@@ -12,6 +12,8 @@ struct HomeView: View {
         ScrollView(.vertical, showsIndicators: false) {
             HomeHeaderView()
             MenuSuggestionSectionView()
+            Spacer().frame(minHeight: 32.0)
+            EventsSectionView()
         }
     }
 }
