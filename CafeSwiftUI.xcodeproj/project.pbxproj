@@ -11,6 +11,7 @@
 		1E13D0742790694000D012EE /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13D0732790694000D012EE /* OtherView.swift */; };
 		1E13D0762790758700D012EE /* SettingMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13D0752790758700D012EE /* SettingMenu.swift */; };
 		1E36D63A2790D7FD00835A4C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36D6392790D7FD00835A4C /* SettingView.swift */; };
+		1E36D63C2790DCF600835A4C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E36D63B2790DCF600835A4C /* HomeViewModel.swift */; };
 		1E712905278F2404001BEAC3 /* CafeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E712904278F2404001BEAC3 /* CafeSwiftUIApp.swift */; };
 		1E712907278F2404001BEAC3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E712906278F2404001BEAC3 /* MainTabView.swift */; };
 		1E712909278F2406001BEAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E712908278F2406001BEAC3 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		1E13D0732790694000D012EE /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
 		1E13D0752790758700D012EE /* SettingMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingMenu.swift; sourceTree = "<group>"; };
 		1E36D6392790D7FD00835A4C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1E36D63B2790DCF600835A4C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		1E712901278F2404001BEAC3 /* CafeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E712904278F2404001BEAC3 /* CafeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeSwiftUIApp.swift; sourceTree = "<group>"; };
 		1E712906278F2404001BEAC3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				1EF3CB72278FA0880087DD05 /* HomeHeaderView.swift */,
 				1EF3CB67278F8F930087DD05 /* MenuSuggestionSectionView.swift */,
 				1EF3CB6B278F946A0087DD05 /* EventsSectionView.swift */,
+				1E36D63B2790DCF600835A4C /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				1E712905278F2404001BEAC3 /* CafeSwiftUIApp.swift in Sources */,
 				1EF3CB71278FA07F0087DD05 /* HomeView.swift in Sources */,
 				1E36D63A2790D7FD00835A4C /* SettingView.swift in Sources */,
+				1E36D63C2790DCF600835A4C /* HomeViewModel.swift in Sources */,
 				1EF3CB6E278F94B10087DD05 /* Event.swift in Sources */,
 				1E13D06F279064E100D012EE /* User.swift in Sources */,
 				1EF3CB68278F8F930087DD05 /* MenuSuggestionSectionView.swift in Sources */,

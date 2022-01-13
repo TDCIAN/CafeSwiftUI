@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MenuSuggestionSectionView: View {
+    @Binding var coffeeMenu: [CoffeeMenu]
+    
     var body: some View {
         VStack {
             Text("\(User.shared.username)님을 위한 추천 메뉴")
@@ -17,7 +19,7 @@ struct MenuSuggestionSectionView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 LazyHStack {
-                    ForEach(CoffeeMenu.sample) { menu in
+                    ForEach(coffeeMenu) { menu in
                         MenuSuggestionItemView(coffeeMenu: menu)
                     }
                 }
@@ -40,11 +42,5 @@ struct MenuSuggestionItemView: View {
             Text(coffeeMenu.name)
                 .font(.caption)
         }
-    }
-}
-
-struct MenuSuggestionSectionView_Previews: PreviewProvider {
-    static var previews: some View {
-        MenuSuggestionSectionView()
     }
 }
