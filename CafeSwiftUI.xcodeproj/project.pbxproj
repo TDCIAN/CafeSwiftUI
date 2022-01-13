@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E13D06F279064E100D012EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E13D06E279064E100D012EE /* User.swift */; };
 		1E712905278F2404001BEAC3 /* CafeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E712904278F2404001BEAC3 /* CafeSwiftUIApp.swift */; };
 		1E712907278F2404001BEAC3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E712906278F2404001BEAC3 /* MainTabView.swift */; };
 		1E712909278F2406001BEAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E712908278F2406001BEAC3 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E13D06E279064E100D012EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		1E712901278F2404001BEAC3 /* CafeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E712904278F2404001BEAC3 /* CafeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeSwiftUIApp.swift; sourceTree = "<group>"; };
 		1E712906278F2404001BEAC3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				1E712904278F2404001BEAC3 /* CafeSwiftUIApp.swift */,
 				1EF3CB69278F90210087DD05 /* CoffeeMenu.swift */,
 				1EF3CB6D278F94B10087DD05 /* Event.swift */,
+				1E13D06E279064E100D012EE /* User.swift */,
 				1EF3CB66278F8F7E0087DD05 /* Scenes */,
 				1E712908278F2406001BEAC3 /* Assets.xcassets */,
 				1E71290A278F2406001BEAC3 /* Preview Content */,
@@ -97,7 +100,6 @@
 			children = (
 				1EF3CB65278F8F770087DD05 /* Tab */,
 				1EF3CB6F278FA06F0087DD05 /* Home */,
-				1EF3CB67278F8F930087DD05 /* MenuSuggestionSectionView.swift */,
 				1EF3CB6B278F946A0087DD05 /* EventsSectionView.swift */,
 			);
 			path = Scenes;
@@ -108,6 +110,7 @@
 			children = (
 				1EF3CB70278FA07F0087DD05 /* HomeView.swift */,
 				1EF3CB72278FA0880087DD05 /* HomeHeaderView.swift */,
+				1EF3CB67278F8F930087DD05 /* MenuSuggestionSectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				1E712905278F2404001BEAC3 /* CafeSwiftUIApp.swift in Sources */,
 				1EF3CB71278FA07F0087DD05 /* HomeView.swift in Sources */,
 				1EF3CB6E278F94B10087DD05 /* Event.swift in Sources */,
+				1E13D06F279064E100D012EE /* User.swift in Sources */,
 				1EF3CB68278F8F930087DD05 /* MenuSuggestionSectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

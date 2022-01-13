@@ -9,14 +9,15 @@ import SwiftUI
 
 struct HomeHeaderView: View {
     var body: some View {
-        VStack {
-            HStack {
+        VStack(spacing: 16.0) {
+            HStack(alignment: .top) {
                 Text("""
-                아이고 손님~
+                \(User.shared.username)님~
                 반갑습니다!☕️
                 """)
                     .font(.largeTitle)
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .fixedSize(horizontal: false, vertical: true)
                 
                 Button(action: {
                     
@@ -26,9 +27,40 @@ struct HomeHeaderView: View {
             }
             
             HStack {
+                Button(
+                    action: {
+                        
+                    }, label: {
+                        Image(systemName: "mail")
+                            .foregroundColor(.secondary)
+                        Text("What's New")
+                            .foregroundColor(.primary)
+                            .font(.system(size: 16.0, weight: .semibold, design: .default))
+                    })
                 
+                Button(
+                    action: {
+                        
+                    }, label: {
+                        Image(systemName: "ticket")
+                            .foregroundColor(.secondary)
+                        Text("Coupon")
+                            .foregroundColor(.primary)
+                            .font(.system(size: 16.0, weight: .semibold, design: .default))
+                    })
+                
+                Spacer()
+                
+                Button(
+                    action: {
+                        
+                    }, label: {
+                        Image(systemName: "bell")
+                            .foregroundColor(.secondary)
+                    })
             }
         }
+        .padding(16.0)
     }
 }
 
